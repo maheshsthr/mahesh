@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:verdana;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+/* Header section */
+header {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #2a2a2a;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #666;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #1E9BFF;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #43A4FF;
+}
+
+/* About and Contact sections */
+section {
+  width: 80%;
+  max-width: 600px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h3 {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1.1em;
+  color: #666;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .btn {
+    padding: 8px 16px;
+  }
+}
+
+
+.snapchat-btn {
+    background-color: #FFD700; /* Snapchat Yellow */
+    color: #000; /* Black text */
+}
+
+.snapchat-btn:hover {
+    background-color: #FFD700; /* Slightly darker yellow on hover */
+}
