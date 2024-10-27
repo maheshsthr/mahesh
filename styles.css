@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family:verdana;
+font-family: "Lexend Deca", sans-serif;
 }
 
 /* Basic styling */
@@ -101,4 +101,8 @@ p {
 
 .snapchat-btn:hover {
     background-color: #FFD700; /* Slightly darker yellow on hover */
+}
+
+.nm {
+  color: #008EFF;
 }
